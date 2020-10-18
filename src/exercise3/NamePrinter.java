@@ -9,7 +9,7 @@ public class NamePrinter {
       String name = input.next();
         for (int i = 0; i < name.length(); i++) {
           char l = name.charAt(i);
-          System.out.println("*"+l+"*");
+          System.out.println("* "+l+" *");
         }
     }
 }

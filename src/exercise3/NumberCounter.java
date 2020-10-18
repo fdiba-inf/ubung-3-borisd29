@@ -20,8 +20,8 @@ public class NumberCounter {
           sum = sum+n;
         n = input.nextInt();
         }
-        System.out.println("Positive: "+positiveCount);
-        System.out.println("Positive: "+negativeCount);
+        System.out.println("Positive numbers: "+positiveCount);
+        System.out.println("Negative numbers: "+negativeCount);
         System.out.println("Sum: "+ sum);
         double avg = sum/(positiveCount+negativeCount);
         System.out.println("Average: "+ sum/(positiveCount+negativeCount));
