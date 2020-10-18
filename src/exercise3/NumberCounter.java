@@ -8,7 +8,7 @@ public class NumberCounter {
         Scanner input = new Scanner(System.in);
       int positiveCount = 0;
       int negativeCount = 0;  
-      int sum = 0;  
+      double sum = 0;  
       int n = input.nextInt();  
         while (n != 0) {
           if (n > 0) {
